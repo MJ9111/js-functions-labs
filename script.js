@@ -173,15 +173,48 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 Complete the exercise in the space below:
 */
 
-function convertTemperature(temperature, scale) {
-    if (scale === 'c') {
-    return temperature * 9/5 + 32;    
-    }
- else if (scale === 'f') {
-    return (temperature - 32) * 5/9;
-} 
-}
-console.log('Exercise 8 Result:', convertTemperature(32, "C"));
-console.log('Exercise 8 Result:', convertTemperature(32, "f"));
+//function convertTemperature(temperature, scale) {
+//    if (scale === 'c') {
+//    return temperature * 9/5 + 32;    
+//    }
+// else if (scale === 'f') {
+//    return (temperature - 32) * 5/9;
+//} 
+//}
+//console.log('Exercise 8 Result:', convertTemperature(32, "C"));
+//console.log('Exercise 8 Result:', convertTemperature(32, "f"));
 
 
+//function basicCalculator(num1, num2, operation) {
+//    switch (operation) {
+//        case 'add':
+//            return num1 + num2;
+//        case 'subtract':
+//            return num1 - num2;
+//        case 'multiply':
+//            return num1 * num2;
+//        case 'divide':
+//            return num1 / num2;
+//        default:
+//            return 'Invalid operation';
+//    }
+//}
+
+//console.log( basicCalculator( 10, 5, "subtract"));
+
+
+//function calculateGrade(score) {
+//    if (score >= 90) {
+//        return `A`;
+//    } else if (score >= 80) {
+//        return `B`;
+//    } else if (score >= 70) {
+//        return `C`;
+//    } else if (score >= 60) {
+//        return `D`;
+//    } else {
+//        return `F`;
+//    }
+//}
+
+//console.log(calculateGrade(85));
